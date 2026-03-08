@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+
+  <!-- Diamond Icon -->
+  <g transform="translate(40,40)" stroke="#9ea3a8" stroke-width="6" fill="none">
+    <polygon points="80,0 160,50 120,130 40,130 0,50"/>
+    <line x1="80" y1="0" x2="80" y2="130"/>
+    <line x1="0" y1="50" x2="80" y2="50"/>
+    <line x1="160" y1="50" x2="80" y2="50"/>
+    <line x1="40" y1="130" x2="80" y2="50"/>
+    <line x1="120" y1="130" x2="80" y2="50"/>
+  </g>
+
+  <!-- GEMS Text -->
+  <text x="240" y="115" font-family="Montserrat, Arial, sans-serif" font-size="95" font-weight="700">
+    
+    <!-- G -->
+    <tspan fill="#7a39c2">G</tspan>
+    
+    <!-- E with superscript -->
+    <tspan fill="#7a39c2">E</tspan>
+    <tspan font-size="40" dy="-45" dx="-10">2</tspan>
+    
+    <!-- reset baseline -->
+    <tspan dy="45"></tspan>
+    
+    <!-- MS -->
+    <tspan fill="#6b7075">MS</tspan>
+  
+  </text>
+
+  <!-- Subtitle -->
+  <text x="240" y="180"
+        font-family="Montserrat, Arial, sans-serif"
+        font-size="38"
+        fill="#6b7075"
+        letter-spacing="3">
+    GUARDIAN ELEMENT MONITOR
+  </text>
+
+  <!-- ECG Line -->
+  <polyline
+    points="240,210 420,210 440,210 455,190 470,230 485,210 660,210"
+    stroke="#7a39c2"
+    stroke-width="4"
+    fill="none"/>
+
+</svg>
